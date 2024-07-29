@@ -1,0 +1,42 @@
+# Ignore all dotfiles except for specific ones
+.*
+!/.git
+!/.config
+!/.vimrc
+
+# Ignore specific directories
+node_modules/
+target/
+Fotos/
+Games/
+Trash/
+Downloads/
+Applications/
+Pictures/
+Public/
+bin/
+Outro/
+Music/
+Movies/
+PDFs/
+Pictures/
+Fontes/
+pond/
+tetris/
+Library/
+Backups/
+Games/
+__pycache__/
+venv/
+newenv/
+newvenv/
+backend/
+backenv/
+lastenv/
+lastvenv/
+probest/
+back/
+random_pyfiles/
+
+# Ignore specific file types
+*.lock
