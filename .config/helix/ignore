@@ -1,0 +1,8 @@
+newvenv
+newenv
+venv
+.venv
+backenv
+backend
+__pycache__
+.DS_Store

@@ -1,0 +1,10 @@
+[[manager.prepend_keymap]]
+on  = ["K"]
+run = "arrow --move -5"
+
+[[manager.prepend_keymap]]
+on  = ["J"]
+run = "arrow --move 5"
+
+[keymap]
+enter = "open"

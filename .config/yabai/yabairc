@@ -1,0 +1,20 @@
+sudo yabai --load-sa
+yabai -m signal --add event=dock_did_restart action="sudo yabai --load-sa"
+
+# Disable specific apps
+yabai -m rule --add app="^Calculadora$" manage=off
+yabai -m rule --add app="Ajustes do Sistema" manage=off
+yabai -m rule --add app="Logi Options+" manage=off
+yabai -m rule --add app="Calendário" manage=off
+
+# Global settings
+yabai -m config                     \
+    focus_follows_mouse autofocus   \
+    layout             bsp          \
+    top_padding        12           \
+    bottom_padding     12           \
+    left_padding       12           \
+    right_padding      12           \
+    window_gap         12
+
+echo "yabai configuration loaded.."

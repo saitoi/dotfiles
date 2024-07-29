@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/pedrosaito/Tasks'
+let g:netrw_dirhist_1='/Users/pedrosaito/Library/Mobile Documents/com~apple~CloudDocs/taskell'
+let g:netrw_dirhist_0='/Users/pedrosaito/Library/Mobile Documents/com~apple~CloudDocs/code/university/scientific-computing/Trabalho_final_cocada/.git'
+let g:netrw_dirhist_9='/Users/pedrosaito/Library/Mobile Documents/com~apple~CloudDocs/code/university/scientific-computing/Trabalho_final_cocada/amostras'
+let g:netrw_dirhist_8='/Users/pedrosaito/Library/Mobile Documents/com~apple~CloudDocs/code/university/scientific-computing/Trabalho_final_cocada/tokens'
+let g:netrw_dirhist_7='/Users/pedrosaito/.android'
+let g:netrw_dirhist_6='/Users/pedrosaito/Library/Mobile Documents/com~apple~CloudDocs/code/university/scientific-computing/Trabalho_final_cocada/amostras'
+let g:netrw_dirhist_5='/Users/pedrosaito/.config/vim'
+let g:netrw_dirhist_4='/Users/pedrosaito/pond'
+let g:netrw_dirhist_3='/Users/pedrosaito'

@@ -1,0 +1,57 @@
+# Open iTerm3
+ctrl - return : open -a iTerm
+ctrl + alt - a : open -a Arc
+ctrl + alt - s : open -a Spotify
+ctrl + alt - g : open -a ChatGPT
+ctrl + alt - o : open -a Obsidian
+ctrl + alt - c : open -a Code
+ctrl + alt - d : open -a Azure
+ctrl + alt - n : open -a Notes
+ctrl + alt - f : open -a Finder
+
+# YABAI
+
+# Change window focus with Vim Keys
+ ctrl - k : yabai -m window --focus north
+ ctrl - h : yabai -m window --focus west
+ ctrl - j : yabai -m window --focus south
+ ctrl - l : yabai -m window --focus east
+
+# Move windows WASD
+# ctrl + shift - w : yabai -m window --warp north
+# ctrl + shift - a : yabai -m window --warp west
+# ctrl + shift - s : yabai -m window --warp south
+# ctrl + shift - d : yabai -m window --warp east
+
+# Change display LEFT - RIGHT
+ctrl - z : yabai -m display --focus west
+ctrl - x : yabai -m display --focus east
+
+### Swap/move window
+ctrl + shift - h : yabai -m window --swap west  || $(yabai -m window --display west; yabai -m display --focus west)
+ctrl + shift - k : yabai -m window --swap south || $(yabai -m window --display south; yabai -m display --focus south)
+ctrl + shift - j : yabai -m window --swap north || $(yabai -m window --display north; yabai -m display --focus north)
+ctrl + shift - l : yabai -m window --swap east  || $(yabai -m window --display east; yabai -m display --focus east)
+
+# Flip Y-axis
+shift + alt - y : yabai -m space --mirror y-axis
+
+# Spaces
+alt + cmd - n : yabai -m space --create
+alt + cmd - 1 : yabai -m space --focus 1
+alt + cmd - 2 : yabai -m space --focus 2
+
+# Create a new space on the current display and move the current window to the new space
+
+cmd + shift - n : yabai -m space --create && \
+                  id=$(yabai -m query --spaces --display | jq 'map(select(."is-native-fullscreen" == false))[-1].index') && \
+                  yabai -m window --space "$id" && \
+                  yabai -m space --focus "$id"
+
+# Create a new space on the current display and move the current window to the new space
+# cmd + shift - n : yabai -m space --create && \
+#                  yabai -m window --space last && \
+#                  yabai -m space --focus last
+
+# Destroy the current space
+alt + shift - d : yabai -m space --destroy
