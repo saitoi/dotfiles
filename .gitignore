@@ -1,0 +1,9 @@
+github-copilot/
+Microsoft\VisualStudio\ Services/
+.DS_Store
+.mono/
+jgit/
+stetic/
+xbuild/
+gtk-2.0/
+NuGet/
