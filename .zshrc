@@ -134,6 +134,10 @@ export PATH
 
 # <<< juliaup initialize <<<
 alias vimwiki='vim +VimwikiIndex'
+export earbuds="40-35-e6-0b-a9-ea"
+alias btc="bluetoothconnector --connect"
+alias btd="bluetoothconnector --disconnect"
+alias bt="bluetoothconnector"
 # export VIMINIT='source /Users/pedrosaito/.vimrc'
 
 function yy() {
