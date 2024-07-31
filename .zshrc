@@ -135,10 +135,18 @@ export PATH
 # <<< juliaup initialize <<<
 alias vimwiki='vim +VimwikiIndex'
 export earbuds="40-35-e6-0b-a9-ea"
+export jbl="04-fe-a1-00-5e-2a"
 alias btc="bluetoothconnector --connect"
 alias btd="bluetoothconnector --disconnect"
 alias bt="bluetoothconnector"
 # export VIMINIT='source /Users/pedrosaito/.vimrc'
+
+# bindkey '\x1b\x7f' backward-delete-word
+# bindkey '\x1b[3;3~' kill-word
+# bindkey '\x1b[1;3D' backward-word
+# bindkey '\x1b[1;3C' forward-word
+
+# bindkey '^[[3;5~' backward-delete-word
 
 function yy() {
     local tmp="$(mktemp -t "yazi-cwd.XXXXXX")"
