@@ -1,0 +1,187 @@
+# Font settings
+font_family JetBrainsMono Nerd Font
+bold_font JetBrainsMono Nerd Font Bold
+italic_font JetBrainsMono Nerd Font Italic
+bold_italic_font JetBrainsMono Nerd Font Bold Italic
+font_size 18.0
+
+# Window settings
+hide_window_decorations titlebar-only
+window_margin_width 4
+cursor_blink_interval 0
+macos_quit_when_last_window_closed no
+macos_colorspace default
+macos_show_window_title_in window
+repaint_delay 8
+# input_delay 1
+resize_draw_strategy blank
+remember_window_size no
+resize_debounce_time 0.001
+confirm_os_window_close -2
+
+# Tab bar settings
+tab_bar_edge bottom
+tab_bar_style powerline
+tab_powerline_style slanted
+tab_activity_symbol 
+tab_title_max_length 30
+tab_title_template "{fmt.fg.red}{bell_symbol}{fmt.fg.tab} {index}: ({tab.active_oldest_exe}) {title} {activity_symbol}"
+
+# Key mappings
+map cmd+1 goto_tab 1
+map cmd+2 goto_tab 2
+map cmd+3 goto_tab 3
+map cmd+4 goto_tab 4
+map cmd+5 goto_tab 5
+map cmd+6 goto_tab 6
+map cmd+7 goto_tab 7
+map cmd+8 goto_tab 8
+map cmd+9 goto_tab 9
+map cmd+0 goto_tab 10
+
+# map cmd+t launch --type=tab --cwd=current
+map cmd+n launch --type=os-window --cwd=current 
+
+map cmd+backspace send_text all \x15
+map cmd+delete send_text all \x1b[3;5~ 
+map alt+backspace send_text \x17
+map alt+delete send_text all \x1b[3;5~
+
+# Symbol mappings
+symbol_map U+F0001-U+F1af0 Hack Nerd Font
+symbol_map U+F8FF,U+100000-U+1018C7 SF Pro
+# symbol_map U+E000-U+F8FF JetBrainsMono Nerd Font
+force_ltr yes
+
+# Colors
+background #2c2e34
+foreground #e1e3e4
+
+selection_background #3d4455
+selection_foreground #e1e3e4
+
+cursor #e1e3e4
+cursor_text_color background
+
+# Tab colors
+active_tab_background #2a2f38
+active_tab_foreground #e1e3e4
+active_tab_font_style bold
+inactive_tab_background #2a2f38
+inactive_tab_foreground #e1e3e4
+inactive_tab_font_style normal
+
+# background_opacity 0.8
+
+# Color palette
+# Black
+color0 #181a1c
+color8 #828a9a
+
+# Red
+color1 #ff6578
+color9 #ff6578
+
+# Green
+color2 #9dd274
+color10 #9dd274
+
+# Yellow
+color3 #eacb64
+color11 #eacb64
+
+# Blue
+color4 #72cce8
+color12 #72cce8
+
+# Magenta
+color5 #ba9cf3
+color13 #ba9cf3
+
+# Cyan
+color6 #f69c5e
+color7 #f69c5e
+
+# White
+color7 #e1e3e4
+color15 #e1e3e4
+
+# Additional settings
+macos_titlebar_color system
+# The basic colors
+foreground              #CDD6F4
+background              #181825
+selection_foreground    #181825
+selection_background    #F5E0DC
+
+# Cursor colors
+cursor                  #F5E0DC
+cursor_text_color       #181825
+
+# URL underline color when hovering with mouse
+url_color               #89B4FA
+
+# Kitty window border colors
+active_border_color     #F5C2E7
+inactive_border_color   #585B70
+bell_border_color       #F9E2AF
+
+# Tab bar colors
+active_tab_foreground   #181825
+active_tab_background   #F5C2E7
+inactive_tab_foreground #BAC2DE
+inactive_tab_background #45475A
+tab_bar_background      #181825
+
+# The 16 terminal colors
+
+# black
+color0 #45475A
+color8 #585B70
+
+# red
+color1 #F38BA8
+color9 #F38BA8
+
+# green
+color2  #A6E3A1
+color10 #A6E3A1
+
+# yellow
+color3  #F9E2AF
+color11 #F9E2AF
+
+# blue
+color4  #89B4FA
+color12 #89B4FA
+
+# magenta
+color5  #F5C2E7
+color13 #F5C2E7
+
+# cyan
+color6  #94E2D5
+color14 #94E2D5
+
+# white
+color7  #BAC2DE
+color15 #A6ADC8
+# vim:ft=kitty
+
+
+# Primary font settings
+font_family JetBrains Mono NL
+bold_font JetBrains Mono NL Bold
+italic_font JetBrains Mono NL Italic
+bold_italic_font JetBrains Mono NL Bold Italic
+font_size 18.0
+
+# Fallback fonts
+# Ensure glyphs are mapped correctly for emoji and symbols
+symbol_map U+1F300-U+1F5FF,U+1F900-U+1F9FF Noto Color Emoji
+symbol_map U+E000-U+F8FF Symbols Nerd Font Mono
+symbol_map U+F0001-U+F1af0 Hack Nerd Font
+symbol_map U+F8FF,U+100000-U+1018C7 SF Pro
+# Nerd Fonts v3.1.0
+
+symbol_map U+e000-U+e00a,U+ea60-U+ebeb,U+e0a0-U+e0c8,U+e0ca,U+e0cc-U+e0d4,U+e200-U+e2a9,U+e300-U+e3e3,U+e5fa-U+e6b1,U+e700-U+e7c5,U+f000-U+f2e0,U+f300-U+f372,U+f400-U+f532,U+f0001-U+f1af0 Symbols Nerd Font Mono
