@@ -97,3 +97,5 @@ map("v", "K", "5k", { noremap = true, silent = true })
 map("n", "K", "5k", { noremap = true, silent = true })
 map("n", "o", "o<esc>", { noremap = true, silent = true })
 map("n", "O", "o", { noremap = true, silent = true })
+
+-- ~/.config/nvim/lua/plugin.lua or keymaps.lua
