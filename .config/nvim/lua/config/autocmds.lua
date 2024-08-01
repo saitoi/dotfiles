@@ -15,3 +15,10 @@ vim.api.nvim_create_autocmd("User", {
     vim.cmd("lcd " .. cwd)
   end,
 })
+
+vim.api.nvim_create_autocmd({ "FileType" }, {
+  pattern = { "markdown", "text" },
+  callback = function()
+    vim.opt_local.spell = false
+  end,
+})
